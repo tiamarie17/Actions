@@ -1,6 +1,3 @@
-#Run a Dockerfile and pass in the parameter who-to-greet with the default value world. 
-#Create output that returns the current time
-
 name: 'Hello World Docker Action'
 description: 'Say hello to a user or the world.'
 inputs:
