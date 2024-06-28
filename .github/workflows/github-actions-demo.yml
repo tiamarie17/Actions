@@ -14,6 +14,11 @@ on:
     - cron: '15 6 * * 0'
   #Manually  
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        type: environment
+        required: true
 
 #Create job Build that:
 #Outputs the name of the event that triggered the workflow
